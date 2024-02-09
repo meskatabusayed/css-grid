@@ -5,15 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <style>
+        .container{
+            height: 100%;
+            display: grid;
+            grid-template-areas: 
+            "h h h h h h h h h h h h"
+            "m m c c c c c c c c c c"
+            "f f f f f f f f f f f f"
+
+
+                        ;
+            
+            
+        }
+        /* number 1 start */
+        /* .one{
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .six{
+            grid-column: 1/-1;
+        }
+        .five{
+            grid-column: 2/3;
+        }
+        .two{
+            grid-row: 2/4;
+            
+        }
+       .four{
+        grid-row: span 2;
+        } */
+        /* number 1 end */
+        /* number 2 start */
+        .header{
+           grid-area: h; 
+        }
+        .content{
+            grid-area: c;
+        }
+        .menu{
+            grid-area: m;
+        }
+        .footer{
+          grid-area: f;  
+
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div>1</div>
-        <div>2</div>
+    <!-- <div class="container">
+        <div class="one">1</div>
+        <div class="two">2</div>
         <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
+        <div class="four">4</div>
+        <div class="five">5</div>
+        <div class="six">6</div>
+    </div> -->
+    <div class="container">
+        <div class="header">
+            Header
+        </div>
+        <div class="menu">
+            Menu
+        </div>
+        <div class="content">
+            Content
+        </div>
+        <div class="footer">
+            Footer
+        </div>
+        
+    
+
     </div>
 </body>
 </html>
