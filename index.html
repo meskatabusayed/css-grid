@@ -9,13 +9,9 @@
         .container{
             height: 100%;
             display: grid;
-            grid-template-areas: 
-            "h h h h h h h h h h h h"
-            "m m c c c c c c c c c c"
-            "f f f f f f f f f f f f"
-
-
-                        ;
+            grid-template-columns: repeat(5 , 90px);
+            grid-template-rows: repeat(2, 90px);
+            
             
             
         }
@@ -39,7 +35,7 @@
         } */
         /* number 1 end */
         /* number 2 start */
-        .header{
+        /* .header{
            grid-area: h; 
         }
         .content{
@@ -51,6 +47,9 @@
         .footer{
           grid-area: f;  
 
+        } */
+        .three{
+            justify-self: center;
         }
     </style>
 </head>
@@ -63,7 +62,7 @@
         <div class="five">5</div>
         <div class="six">6</div>
     </div> -->
-    <div class="container">
+    <!-- <div class="container">
         <div class="header">
             Header
         </div>
@@ -75,6 +74,20 @@
         </div>
         <div class="footer">
             Footer
+        </div> -->
+
+        <div class="container">
+            <div>1</div>
+            <div>2</div>
+            <div class="three">3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+
         </div>
         
     
